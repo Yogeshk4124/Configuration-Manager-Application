@@ -1,0 +1,13 @@
+package com.project.ccmserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CcmServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CcmServerApplication.class, args);
+	}
+
+}
